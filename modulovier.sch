@@ -1,0 +1,1277 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW1
+U 1 1 60465FB5
+P 4850 1900
+F 0 "SW1" H 4850 2093 50  0000 C CNN
+F 1 "mx" H 4850 2094 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 4850 2100 50  0001 C CNN
+F 3 "~" H 4850 2100 50  0001 C CNN
+	1    4850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 60465FBB
+P 4900 2050
+F 0 "D1" H 4900 2175 50  0000 C CNN
+F 1 "D" H 4900 2176 50  0001 C CNN
+F 2 "m65:diode_v" H 4900 2050 50  0001 C CNN
+F 3 "~" H 4900 2050 50  0001 C CNN
+	1    4900 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 2050 5050 1900
+Wire Wire Line
+	4750 2050 4550 2050
+Wire Wire Line
+	4650 1900 4650 1750
+$Comp
+L Switch:SW_Push SW3
+U 1 1 60465FD3
+P 4850 2800
+F 0 "SW3" H 4850 2993 50  0000 C CNN
+F 1 "mx" H 4850 2994 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 4850 3000 50  0001 C CNN
+F 3 "~" H 4850 3000 50  0001 C CNN
+	1    4850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 60465FD9
+P 4900 2950
+F 0 "D3" H 4900 3075 50  0000 C CNN
+F 1 "D" H 4900 3076 50  0001 C CNN
+F 2 "m65:diode_v" H 4900 2950 50  0001 C CNN
+F 3 "~" H 4900 2950 50  0001 C CNN
+	1    4900 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 2950 5050 2800
+Wire Wire Line
+	4750 2950 4550 2950
+Wire Wire Line
+	4650 2800 4650 2650
+$Comp
+L Switch:SW_Push SW2
+U 1 1 60465FE2
+P 4850 2350
+F 0 "SW2" H 4850 2543 50  0000 C CNN
+F 1 "mx" H 4850 2544 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 4850 2550 50  0001 C CNN
+F 3 "~" H 4850 2550 50  0001 C CNN
+	1    4850 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 60465FE8
+P 4900 2500
+F 0 "D2" H 4900 2625 50  0000 C CNN
+F 1 "D" H 4900 2626 50  0001 C CNN
+F 2 "m65:diode_v" H 4900 2500 50  0001 C CNN
+F 3 "~" H 4900 2500 50  0001 C CNN
+	1    4900 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 2500 5050 2350
+Wire Wire Line
+	4750 2500 4550 2500
+Wire Wire Line
+	4650 2350 4650 2200
+$Comp
+L Device:D D5
+U 1 1 60465FF7
+P 4900 3800
+F 0 "D5" H 4900 3925 50  0000 C CNN
+F 1 "D" H 4900 3926 50  0001 C CNN
+F 2 "m65:diode_v" H 4900 3800 50  0001 C CNN
+F 3 "~" H 4900 3800 50  0001 C CNN
+	1    4900 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 3800 5050 3650
+Wire Wire Line
+	4750 3800 4550 3800
+$Comp
+L Switch:SW_Push SW4
+U 1 1 60466000
+P 4850 3200
+F 0 "SW4" H 4850 3393 50  0000 C CNN
+F 1 "mx" H 4850 3394 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 4850 3400 50  0001 C CNN
+F 3 "~" H 4850 3400 50  0001 C CNN
+	1    4850 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 60466006
+P 4900 3350
+F 0 "D4" H 4900 3475 50  0000 C CNN
+F 1 "D" H 4900 3476 50  0001 C CNN
+F 2 "m65:diode_v" H 4900 3350 50  0001 C CNN
+F 3 "~" H 4900 3350 50  0001 C CNN
+	1    4900 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 3350 5050 3200
+Wire Wire Line
+	4750 3350 4550 3350
+Wire Wire Line
+	4650 3200 4650 3050
+Connection ~ 4550 2050
+Connection ~ 4550 2500
+Wire Wire Line
+	4550 2500 4550 2050
+Connection ~ 4550 2950
+Wire Wire Line
+	4550 2950 4550 2500
+Wire Wire Line
+	4550 3350 4550 2950
+Text GLabel 4550 1200 1    50   Input ~ 0
+c7
+$Comp
+L Switch:SW_Push SW6
+U 1 1 60471CA3
+P 5400 1900
+F 0 "SW6" H 5400 2093 50  0000 C CNN
+F 1 "mx" H 5400 2094 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 5400 2100 50  0001 C CNN
+F 3 "~" H 5400 2100 50  0001 C CNN
+	1    5400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 60471CA9
+P 5450 2050
+F 0 "D6" H 5450 2175 50  0000 C CNN
+F 1 "D" H 5450 2176 50  0001 C CNN
+F 2 "m65:diode_v" H 5450 2050 50  0001 C CNN
+F 3 "~" H 5450 2050 50  0001 C CNN
+	1    5450 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 2050 5600 1900
+Wire Wire Line
+	5300 2050 5100 2050
+Wire Wire Line
+	5200 1900 5200 1750
+$Comp
+L Switch:SW_Push SW8
+U 1 1 60471CC1
+P 5400 2800
+F 0 "SW8" H 5400 2993 50  0000 C CNN
+F 1 "mx" H 5400 2994 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 5400 3000 50  0001 C CNN
+F 3 "~" H 5400 3000 50  0001 C CNN
+	1    5400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 60471CC7
+P 5450 2950
+F 0 "D8" H 5450 3075 50  0000 C CNN
+F 1 "D" H 5450 3076 50  0001 C CNN
+F 2 "m65:diode_v" H 5450 2950 50  0001 C CNN
+F 3 "~" H 5450 2950 50  0001 C CNN
+	1    5450 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 2950 5600 2800
+Wire Wire Line
+	5300 2950 5100 2950
+Wire Wire Line
+	5200 2800 5200 2650
+$Comp
+L Switch:SW_Push SW7
+U 1 1 60471CD0
+P 5400 2350
+F 0 "SW7" H 5400 2543 50  0000 C CNN
+F 1 "mx" H 5400 2544 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 5400 2550 50  0001 C CNN
+F 3 "~" H 5400 2550 50  0001 C CNN
+	1    5400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 60471CD6
+P 5450 2500
+F 0 "D7" H 5450 2625 50  0000 C CNN
+F 1 "D" H 5450 2626 50  0001 C CNN
+F 2 "m65:diode_v" H 5450 2500 50  0001 C CNN
+F 3 "~" H 5450 2500 50  0001 C CNN
+	1    5450 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 2500 5600 2350
+Wire Wire Line
+	5300 2500 5100 2500
+Wire Wire Line
+	5200 2350 5200 2200
+$Comp
+L Device:D D10
+U 1 1 60471CE5
+P 5450 3800
+F 0 "D10" H 5450 3925 50  0000 C CNN
+F 1 "D" H 5450 3926 50  0001 C CNN
+F 2 "m65:diode_v" H 5450 3800 50  0001 C CNN
+F 3 "~" H 5450 3800 50  0001 C CNN
+	1    5450 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 3800 5600 3650
+Wire Wire Line
+	5300 3800 5100 3800
+$Comp
+L Switch:SW_Push SW9
+U 1 1 60471CEE
+P 5400 3200
+F 0 "SW9" H 5400 3393 50  0000 C CNN
+F 1 "mx" H 5400 3394 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 5400 3400 50  0001 C CNN
+F 3 "~" H 5400 3400 50  0001 C CNN
+	1    5400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 60471CF4
+P 5450 3350
+F 0 "D9" H 5450 3475 50  0000 C CNN
+F 1 "D" H 5450 3476 50  0001 C CNN
+F 2 "m65:diode_v" H 5450 3350 50  0001 C CNN
+F 3 "~" H 5450 3350 50  0001 C CNN
+	1    5450 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 3350 5600 3200
+Wire Wire Line
+	5300 3350 5100 3350
+Wire Wire Line
+	5200 3200 5200 3050
+Connection ~ 5100 2050
+Connection ~ 5100 2500
+Wire Wire Line
+	5100 2500 5100 2050
+Connection ~ 5100 2950
+Wire Wire Line
+	5100 2950 5100 2500
+Wire Wire Line
+	5100 3350 5100 2950
+Text GLabel 5100 1200 1    50   Input ~ 0
+c8
+$Comp
+L Switch:SW_Push SW11
+U 1 1 6047F345
+P 5950 1900
+F 0 "SW11" H 5950 2093 50  0000 C CNN
+F 1 "mx" H 5950 2094 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 5950 2100 50  0001 C CNN
+F 3 "~" H 5950 2100 50  0001 C CNN
+	1    5950 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 6047F34B
+P 6000 2050
+F 0 "D11" H 6000 2175 50  0000 C CNN
+F 1 "D" H 6000 2176 50  0001 C CNN
+F 2 "m65:diode_v" H 6000 2050 50  0001 C CNN
+F 3 "~" H 6000 2050 50  0001 C CNN
+	1    6000 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 2050 6150 1900
+Wire Wire Line
+	5850 2050 5650 2050
+Wire Wire Line
+	5750 1900 5750 1750
+$Comp
+L Switch:SW_Push SW13
+U 1 1 6047F363
+P 5950 2800
+F 0 "SW13" H 5950 2993 50  0000 C CNN
+F 1 "mx" H 5950 2994 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 5950 3000 50  0001 C CNN
+F 3 "~" H 5950 3000 50  0001 C CNN
+	1    5950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 6047F369
+P 6000 2950
+F 0 "D13" H 6000 3075 50  0000 C CNN
+F 1 "D" H 6000 3076 50  0001 C CNN
+F 2 "m65:diode_v" H 6000 2950 50  0001 C CNN
+F 3 "~" H 6000 2950 50  0001 C CNN
+	1    6000 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 2950 6150 2800
+Wire Wire Line
+	5850 2950 5650 2950
+Wire Wire Line
+	5750 2800 5750 2650
+$Comp
+L Switch:SW_Push SW12
+U 1 1 6047F372
+P 5950 2350
+F 0 "SW12" H 5950 2543 50  0000 C CNN
+F 1 "mx" H 5950 2544 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 5950 2550 50  0001 C CNN
+F 3 "~" H 5950 2550 50  0001 C CNN
+	1    5950 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 6047F378
+P 6000 2500
+F 0 "D12" H 6000 2625 50  0000 C CNN
+F 1 "D" H 6000 2626 50  0001 C CNN
+F 2 "m65:diode_v" H 6000 2500 50  0001 C CNN
+F 3 "~" H 6000 2500 50  0001 C CNN
+	1    6000 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 2500 6150 2350
+Wire Wire Line
+	5850 2500 5650 2500
+Wire Wire Line
+	5750 2350 5750 2200
+$Comp
+L Device:D D15
+U 1 1 6047F387
+P 6000 3800
+F 0 "D15" H 6000 3925 50  0000 C CNN
+F 1 "D" H 6000 3926 50  0001 C CNN
+F 2 "m65:diode_v" H 6000 3800 50  0001 C CNN
+F 3 "~" H 6000 3800 50  0001 C CNN
+	1    6000 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 3800 6150 3650
+Wire Wire Line
+	5850 3800 5650 3800
+$Comp
+L Switch:SW_Push SW14
+U 1 1 6047F390
+P 5950 3200
+F 0 "SW14" H 5950 3393 50  0000 C CNN
+F 1 "mx" H 5950 3394 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 5950 3400 50  0001 C CNN
+F 3 "~" H 5950 3400 50  0001 C CNN
+	1    5950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 6047F396
+P 6000 3350
+F 0 "D14" H 6000 3475 50  0000 C CNN
+F 1 "D" H 6000 3476 50  0001 C CNN
+F 2 "m65:diode_v" H 6000 3350 50  0001 C CNN
+F 3 "~" H 6000 3350 50  0001 C CNN
+	1    6000 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 3350 6150 3200
+Wire Wire Line
+	5850 3350 5650 3350
+Wire Wire Line
+	5750 3200 5750 3050
+Connection ~ 5650 2050
+Connection ~ 5650 2500
+Wire Wire Line
+	5650 2500 5650 2050
+Connection ~ 5650 2950
+Wire Wire Line
+	5650 2950 5650 2500
+Wire Wire Line
+	5650 3350 5650 2950
+Text GLabel 5650 1200 1    50   Input ~ 0
+c9
+$Comp
+L Switch:SW_Push SW16
+U 1 1 6048F9AD
+P 6500 1900
+F 0 "SW16" H 6500 2093 50  0000 C CNN
+F 1 "mx" H 6500 2094 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 6500 2100 50  0001 C CNN
+F 3 "~" H 6500 2100 50  0001 C CNN
+	1    6500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 6048F9B3
+P 6550 2050
+F 0 "D16" H 6550 2175 50  0000 C CNN
+F 1 "D" H 6550 2176 50  0001 C CNN
+F 2 "m65:diode_v" H 6550 2050 50  0001 C CNN
+F 3 "~" H 6550 2050 50  0001 C CNN
+	1    6550 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 2050 6700 1900
+Wire Wire Line
+	6400 2050 6200 2050
+Wire Wire Line
+	6300 1900 6300 1750
+$Comp
+L Switch:SW_Push SW18
+U 1 1 6048F9CB
+P 6500 2800
+F 0 "SW18" H 6500 2993 50  0000 C CNN
+F 1 "mx" H 6500 2994 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 6500 3000 50  0001 C CNN
+F 3 "~" H 6500 3000 50  0001 C CNN
+	1    6500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 6048F9D1
+P 6550 2950
+F 0 "D17" H 6550 3075 50  0000 C CNN
+F 1 "D" H 6550 3076 50  0001 C CNN
+F 2 "m65:diode_v" H 6550 2950 50  0001 C CNN
+F 3 "~" H 6550 2950 50  0001 C CNN
+	1    6550 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 2950 6700 2800
+Wire Wire Line
+	6400 2950 6200 2950
+Wire Wire Line
+	6300 2800 6300 2650
+$Comp
+L Switch:SW_Push SW17
+U 1 1 6048F9DA
+P 6500 2350
+F 0 "SW17" H 6500 2543 50  0000 C CNN
+F 1 "mx" H 6500 2544 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 6500 2550 50  0001 C CNN
+F 3 "~" H 6500 2550 50  0001 C CNN
+	1    6500 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2500 6700 2350
+Wire Wire Line
+	6400 2500 6200 2500
+Wire Wire Line
+	6300 2350 6300 2200
+$Comp
+L Device:D D19
+U 1 1 6048F9EF
+P 6550 3800
+F 0 "D19" H 6550 3925 50  0000 C CNN
+F 1 "D" H 6550 3926 50  0001 C CNN
+F 2 "m65:diode_v" H 6550 3800 50  0001 C CNN
+F 3 "~" H 6550 3800 50  0001 C CNN
+	1    6550 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 3800 6700 3650
+Wire Wire Line
+	6400 3800 6200 3800
+$Comp
+L Switch:SW_Push SW19
+U 1 1 6048F9F8
+P 6500 3200
+F 0 "SW19" H 6500 3393 50  0000 C CNN
+F 1 "mx" H 6500 3394 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 6500 3400 50  0001 C CNN
+F 3 "~" H 6500 3400 50  0001 C CNN
+	1    6500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 6048F9FE
+P 6550 3350
+F 0 "D18" H 6550 3475 50  0000 C CNN
+F 1 "D" H 6550 3476 50  0001 C CNN
+F 2 "m65:diode_v" H 6550 3350 50  0001 C CNN
+F 3 "~" H 6550 3350 50  0001 C CNN
+	1    6550 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 3350 6700 3200
+Wire Wire Line
+	6400 3350 6200 3350
+Wire Wire Line
+	6300 3200 6300 3050
+Connection ~ 6200 2050
+Connection ~ 6200 2500
+Wire Wire Line
+	6200 2500 6200 2050
+Connection ~ 6200 2950
+Wire Wire Line
+	6200 2950 6200 2500
+Wire Wire Line
+	6200 3350 6200 2950
+Text GLabel 6200 1200 1    50   Input ~ 0
+c10
+$Comp
+L Switch:SW_Push SW21
+U 1 1 604A7DA9
+P 7050 1900
+F 0 "SW21" H 7050 2093 50  0000 C CNN
+F 1 "mx" H 7050 2094 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 7050 2100 50  0001 C CNN
+F 3 "~" H 7050 2100 50  0001 C CNN
+	1    7050 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 604A7DAF
+P 7100 2050
+F 0 "D20" H 7100 2175 50  0000 C CNN
+F 1 "D" H 7100 2176 50  0001 C CNN
+F 2 "m65:diode_v" H 7100 2050 50  0001 C CNN
+F 3 "~" H 7100 2050 50  0001 C CNN
+	1    7100 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7250 2050 7250 1900
+Wire Wire Line
+	6950 2050 6750 2050
+Wire Wire Line
+	6850 1900 6850 1750
+$Comp
+L Switch:SW_Push SW23
+U 1 1 604A7DC7
+P 7050 2800
+F 0 "SW23" H 7050 2993 50  0000 C CNN
+F 1 "mx" H 7050 2994 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 7050 3000 50  0001 C CNN
+F 3 "~" H 7050 3000 50  0001 C CNN
+	1    7050 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 604A7DCD
+P 7100 2950
+F 0 "D22" H 7100 3075 50  0000 C CNN
+F 1 "D" H 7100 3076 50  0001 C CNN
+F 2 "m65:diode_v" H 7100 2950 50  0001 C CNN
+F 3 "~" H 7100 2950 50  0001 C CNN
+	1    7100 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7250 2950 7250 2800
+Wire Wire Line
+	6950 2950 6750 2950
+Wire Wire Line
+	6850 2800 6850 2650
+$Comp
+L Switch:SW_Push SW22
+U 1 1 604A7DD6
+P 7050 2350
+F 0 "SW22" H 7050 2543 50  0000 C CNN
+F 1 "mx" H 7050 2544 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 7050 2550 50  0001 C CNN
+F 3 "~" H 7050 2550 50  0001 C CNN
+	1    7050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 604A7DDC
+P 7100 2500
+F 0 "D21" H 7100 2625 50  0000 C CNN
+F 1 "D" H 7100 2626 50  0001 C CNN
+F 2 "m65:diode_v" H 7100 2500 50  0001 C CNN
+F 3 "~" H 7100 2500 50  0001 C CNN
+	1    7100 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7250 2500 7250 2350
+Wire Wire Line
+	6950 2500 6750 2500
+Wire Wire Line
+	6850 2350 6850 2200
+$Comp
+L Device:D D24
+U 1 1 604A7DEB
+P 7100 3800
+F 0 "D24" H 7100 3925 50  0000 C CNN
+F 1 "D" H 7100 3926 50  0001 C CNN
+F 2 "m65:diode_v" H 7100 3800 50  0001 C CNN
+F 3 "~" H 7100 3800 50  0001 C CNN
+	1    7100 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7250 3800 7250 3650
+Wire Wire Line
+	6950 3800 6750 3800
+$Comp
+L Switch:SW_Push SW24
+U 1 1 604A7DF4
+P 7050 3200
+F 0 "SW24" H 7050 3393 50  0000 C CNN
+F 1 "mx" H 7050 3394 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 7050 3400 50  0001 C CNN
+F 3 "~" H 7050 3400 50  0001 C CNN
+	1    7050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 604A7DFA
+P 7100 3350
+F 0 "D23" H 7100 3475 50  0000 C CNN
+F 1 "D" H 7100 3476 50  0001 C CNN
+F 2 "m65:diode_v" H 7100 3350 50  0001 C CNN
+F 3 "~" H 7100 3350 50  0001 C CNN
+	1    7100 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7250 3350 7250 3200
+Wire Wire Line
+	6950 3350 6750 3350
+Wire Wire Line
+	6850 3200 6850 3050
+Connection ~ 6750 2050
+Connection ~ 6750 2500
+Wire Wire Line
+	6750 2500 6750 2050
+Connection ~ 6750 2950
+Wire Wire Line
+	6750 2950 6750 2500
+Wire Wire Line
+	6750 3350 6750 2950
+Text GLabel 6750 1200 1    50   Input ~ 0
+c11
+$Comp
+L Switch:SW_Push SW26
+U 1 1 604BEEAB
+P 7600 1900
+F 0 "SW26" H 7600 2093 50  0000 C CNN
+F 1 "mx" H 7600 2094 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 7600 2100 50  0001 C CNN
+F 3 "~" H 7600 2100 50  0001 C CNN
+	1    7600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 604BEEB1
+P 7650 2050
+F 0 "D25" H 7650 2175 50  0000 C CNN
+F 1 "D" H 7650 2176 50  0001 C CNN
+F 2 "m65:diode_v" H 7650 2050 50  0001 C CNN
+F 3 "~" H 7650 2050 50  0001 C CNN
+	1    7650 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 2050 7800 1900
+Wire Wire Line
+	7500 2050 7300 2050
+Wire Wire Line
+	7400 1900 7400 1750
+$Comp
+L Switch:SW_Push SW28
+U 1 1 604BEEC9
+P 7600 2800
+F 0 "SW28" H 7600 2993 50  0000 C CNN
+F 1 "mx" H 7600 2994 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 7600 3000 50  0001 C CNN
+F 3 "~" H 7600 3000 50  0001 C CNN
+	1    7600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 604BEECF
+P 7650 2950
+F 0 "D27" H 7650 3075 50  0000 C CNN
+F 1 "D" H 7650 3076 50  0001 C CNN
+F 2 "m65:diode_v" H 7650 2950 50  0001 C CNN
+F 3 "~" H 7650 2950 50  0001 C CNN
+	1    7650 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 2950 7800 2800
+Wire Wire Line
+	7500 2950 7300 2950
+Wire Wire Line
+	7400 2800 7400 2650
+$Comp
+L Switch:SW_Push SW27
+U 1 1 604BEED8
+P 7600 2350
+F 0 "SW27" H 7600 2543 50  0000 C CNN
+F 1 "mx" H 7600 2544 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 7600 2550 50  0001 C CNN
+F 3 "~" H 7600 2550 50  0001 C CNN
+	1    7600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 604BEEDE
+P 7650 2500
+F 0 "D26" H 7650 2625 50  0000 C CNN
+F 1 "D" H 7650 2626 50  0001 C CNN
+F 2 "m65:diode_v" H 7650 2500 50  0001 C CNN
+F 3 "~" H 7650 2500 50  0001 C CNN
+	1    7650 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 2500 7800 2350
+Wire Wire Line
+	7500 2500 7300 2500
+Wire Wire Line
+	7400 2350 7400 2200
+$Comp
+L Device:D D29
+U 1 1 604BEEED
+P 7650 3800
+F 0 "D29" H 7650 3925 50  0000 C CNN
+F 1 "D" H 7650 3926 50  0001 C CNN
+F 2 "m65:diode_v" H 7650 3800 50  0001 C CNN
+F 3 "~" H 7650 3800 50  0001 C CNN
+	1    7650 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 3800 7800 3650
+Wire Wire Line
+	7500 3800 7300 3800
+$Comp
+L Switch:SW_Push SW29
+U 1 1 604BEEF6
+P 7600 3200
+F 0 "SW29" H 7600 3393 50  0000 C CNN
+F 1 "mx" H 7600 3394 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 7600 3400 50  0001 C CNN
+F 3 "~" H 7600 3400 50  0001 C CNN
+	1    7600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 604BEEFC
+P 7650 3350
+F 0 "D28" H 7650 3475 50  0000 C CNN
+F 1 "D" H 7650 3476 50  0001 C CNN
+F 2 "m65:diode_v" H 7650 3350 50  0001 C CNN
+F 3 "~" H 7650 3350 50  0001 C CNN
+	1    7650 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 3350 7800 3200
+Wire Wire Line
+	7500 3350 7300 3350
+Wire Wire Line
+	7400 3200 7400 3050
+Connection ~ 7300 2050
+Connection ~ 7300 2500
+Wire Wire Line
+	7300 2500 7300 2050
+Connection ~ 7300 2950
+Wire Wire Line
+	7300 2950 7300 2500
+Wire Wire Line
+	7300 3350 7300 2950
+Text GLabel 7300 1200 1    50   Input ~ 0
+c12
+Connection ~ 5200 1750
+Connection ~ 5750 1750
+Connection ~ 6300 1750
+Connection ~ 6850 1750
+Connection ~ 7400 1750
+Connection ~ 5200 2200
+Connection ~ 5750 2200
+Connection ~ 6300 2200
+Connection ~ 6850 2200
+Connection ~ 7400 2200
+Connection ~ 5200 2650
+Connection ~ 5750 2650
+Connection ~ 6300 2650
+Connection ~ 6850 2650
+Connection ~ 7400 2650
+Wire Wire Line
+	4650 3050 5200 3050
+Connection ~ 5200 3050
+Wire Wire Line
+	5200 3050 5750 3050
+Connection ~ 5750 3050
+Wire Wire Line
+	5750 3050 6300 3050
+Connection ~ 6300 3050
+Wire Wire Line
+	6300 3050 6850 3050
+Connection ~ 6850 3050
+Wire Wire Line
+	6850 3050 7400 3050
+Connection ~ 7400 3050
+Wire Wire Line
+	7400 3050 7950 3050
+Text GLabel 7900 1750 2    50   Output ~ 0
+r1
+Text GLabel 7950 2200 2    50   Output ~ 0
+r2
+Text GLabel 7950 2650 2    50   Output ~ 0
+r3
+Text GLabel 7950 3050 2    50   Output ~ 0
+r4
+Text GLabel 7950 3500 2    50   Output ~ 0
+r5
+$Comp
+L Device:LED D30
+U 1 1 605C4BF1
+P 9400 1350
+F 0 "D30" H 9393 1187 50  0000 C CNN
+F 1 "LED" H 9393 1186 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm_Clear" H 9400 1350 50  0001 C CNN
+F 3 "~" H 9400 1350 50  0001 C CNN
+	1    9400 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 605C9F90
+P 8950 1350
+F 0 "R3" V 8835 1350 50  0000 C CNN
+F 1 "R" V 8834 1350 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8880 1350 50  0001 C CNN
+F 3 "~" H 8950 1350 50  0001 C CNN
+	1    8950 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 1350 9100 1350
+Text GLabel 8800 1350 0    50   Input ~ 0
+lwr
+$Comp
+L Device:LED D31
+U 1 1 60714B3A
+P 9400 1600
+F 0 "D31" H 9393 1437 50  0000 C CNN
+F 1 "LED" H 9393 1436 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm_Clear" H 9400 1600 50  0001 C CNN
+F 3 "~" H 9400 1600 50  0001 C CNN
+	1    9400 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 60714B40
+P 8950 1600
+F 0 "R4" V 8835 1600 50  0000 C CNN
+F 1 "R" V 8834 1600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8880 1600 50  0001 C CNN
+F 3 "~" H 8950 1600 50  0001 C CNN
+	1    8950 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 1600 9100 1600
+Text GLabel 8800 1600 0    50   Input ~ 0
+rse
+Connection ~ 7300 3350
+Wire Wire Line
+	7300 3800 7300 3350
+Wire Wire Line
+	7400 3650 7400 3500
+$Comp
+L Switch:SW_Push SW30
+U 1 1 604BEEE7
+P 7600 3650
+F 0 "SW30" H 7600 3843 50  0000 C CNN
+F 1 "mx" H 7600 3844 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 7600 3850 50  0001 C CNN
+F 3 "~" H 7600 3850 50  0001 C CNN
+	1    7600 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6750 3350
+Wire Wire Line
+	6750 3800 6750 3350
+Wire Wire Line
+	6850 3650 6850 3500
+$Comp
+L Switch:SW_Push SW25
+U 1 1 604A7DE5
+P 7050 3650
+F 0 "SW25" H 7050 3843 50  0000 C CNN
+F 1 "mx" H 7050 3844 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 7050 3850 50  0001 C CNN
+F 3 "~" H 7050 3850 50  0001 C CNN
+	1    7050 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 3350
+Wire Wire Line
+	6200 3800 6200 3350
+Wire Wire Line
+	6300 3650 6300 3500
+$Comp
+L Switch:SW_Push SW20
+U 1 1 6048F9E9
+P 6500 3650
+F 0 "SW20" H 6500 3843 50  0000 C CNN
+F 1 "mx" H 6500 3844 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 6500 3850 50  0001 C CNN
+F 3 "~" H 6500 3850 50  0001 C CNN
+	1    6500 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 3350
+Wire Wire Line
+	5650 3800 5650 3350
+Wire Wire Line
+	5750 3650 5750 3500
+$Comp
+L Switch:SW_Push SW15
+U 1 1 6047F381
+P 5950 3650
+F 0 "SW15" H 5950 3843 50  0000 C CNN
+F 1 "mx" H 5950 3844 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 5950 3850 50  0001 C CNN
+F 3 "~" H 5950 3850 50  0001 C CNN
+	1    5950 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 3350
+Wire Wire Line
+	5100 3800 5100 3350
+Wire Wire Line
+	5200 3650 5200 3500
+$Comp
+L Switch:SW_Push SW10
+U 1 1 60471CDF
+P 5400 3650
+F 0 "SW10" H 5400 3843 50  0000 C CNN
+F 1 "mx" H 5400 3844 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 5400 3850 50  0001 C CNN
+F 3 "~" H 5400 3850 50  0001 C CNN
+	1    5400 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4550 3350
+Wire Wire Line
+	4550 3800 4550 3350
+Wire Wire Line
+	4650 3650 4650 3500
+$Comp
+L Switch:SW_Push SW5
+U 1 1 60465FF1
+P 4850 3650
+F 0 "SW5" H 4850 3843 50  0000 C CNN
+F 1 "mx" H 4850 3844 50  0001 C CNN
+F 2 "m65:SW_Cherry_MX_1.00u_PCB" H 4850 3850 50  0001 C CNN
+F 3 "~" H 4850 3850 50  0001 C CNN
+	1    4850 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 7400 3500
+Connection ~ 6850 3500
+Connection ~ 6300 3500
+Connection ~ 5750 3500
+Connection ~ 5200 3500
+Wire Wire Line
+	7400 3500 7950 3500
+Wire Wire Line
+	6850 3500 7400 3500
+Wire Wire Line
+	6300 3500 6850 3500
+Wire Wire Line
+	5750 3500 6300 3500
+Wire Wire Line
+	5200 3500 5750 3500
+Wire Wire Line
+	4650 3500 5200 3500
+Wire Wire Line
+	7400 2650 7950 2650
+Wire Wire Line
+	7400 2200 7950 2200
+Wire Wire Line
+	7400 1750 7900 1750
+Wire Wire Line
+	4650 2650 5200 2650
+Wire Wire Line
+	5200 2650 5750 2650
+Wire Wire Line
+	5750 2650 6300 2650
+Wire Wire Line
+	6300 2650 6850 2650
+Wire Wire Line
+	6850 2650 7400 2650
+Wire Wire Line
+	4650 2200 5200 2200
+Wire Wire Line
+	5200 2200 5750 2200
+Wire Wire Line
+	5750 2200 6300 2200
+Wire Wire Line
+	6300 2200 6850 2200
+Wire Wire Line
+	6850 2200 7400 2200
+Wire Wire Line
+	6850 1750 7400 1750
+Wire Wire Line
+	6300 1750 6850 1750
+Wire Wire Line
+	5750 1750 6300 1750
+Wire Wire Line
+	5200 1750 5750 1750
+Wire Wire Line
+	4650 1750 5200 1750
+Text GLabel 9550 1350 2    50   Output ~ 0
+gnd
+Text GLabel 9550 1600 2    50   Output ~ 0
+gnd
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO1
+U 1 1 611D119E
+P 9550 2350
+F 0 "#LOGO1" H 9550 2625 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 9550 2125 50  0001 C CNN
+F 2 "" H 9550 2350 50  0001 C CNN
+F 3 "~" H 9550 2350 50  0001 C CNN
+	1    9550 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4100 4250 1    50   BiDi ~ 0
+c8
+Text GLabel 2600 4950 0    50   Input ~ 0
+gnd
+Text GLabel 3800 4250 1    50   BiDi ~ 0
+c9
+Text GLabel 3700 4250 1    50   BiDi ~ 0
+c10
+Text GLabel 3600 4250 1    50   BiDi ~ 0
+c11
+Text GLabel 3500 4250 1    50   BiDi ~ 0
+c12
+Text GLabel 4700 4250 1    50   BiDi ~ 0
+rse
+Text GLabel 4600 4250 1    50   BiDi ~ 0
+lwr
+Text GLabel 4500 4250 1    50   BiDi ~ 0
+c7
+Text GLabel 3950 6050 3    50   BiDi ~ 0
+r5
+Text GLabel 4350 6050 3    50   BiDi ~ 0
+r4
+Text GLabel 4150 6050 3    50   BiDi ~ 0
+r3
+Text GLabel 4050 6050 3    50   BiDi ~ 0
+r2
+Text GLabel 4250 6050 3    50   BiDi ~ 0
+r1
+Wire Wire Line
+	4550 1200 4550 2050
+Wire Wire Line
+	5100 1200 5100 2050
+Wire Wire Line
+	5650 1200 5650 2050
+Wire Wire Line
+	6200 1200 6200 2050
+Wire Wire Line
+	6750 1200 6750 2050
+Wire Wire Line
+	7300 1200 7300 2050
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6065A7CA
+P 1200 6750
+F 0 "H1" H 1300 6796 50  0000 L CNN
+F 1 "MountingHole" H 1300 6705 50  0000 L CNN
+F 2 "m65:LegoHole_1u_49" H 1200 6750 50  0001 C CNN
+F 3 "~" H 1200 6750 50  0001 C CNN
+	1    1200 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder SW31
+U 1 1 612E776C
+P 9150 3200
+F 0 "SW31" H 9380 3246 50  0000 L CNN
+F 1 "Rotary_Encoder" H 9380 3155 50  0000 L CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E_Vertical_H20mm_CircularMountingHoles" H 9000 3360 50  0001 C CNN
+F 3 "~" H 9150 3460 50  0001 C CNN
+	1    9150 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 8650 3200 0    50   Output ~ 0
+gnd
+Wire Wire Line
+	8650 3200 8850 3200
+Text GLabel 8650 3100 0    50   Input ~ 0
+ea
+Text GLabel 8650 3300 0    50   Input ~ 0
+eb
+Wire Wire Line
+	8650 3100 8850 3100
+Wire Wire Line
+	8650 3300 8850 3300
+Text GLabel 3450 6050 3    50   Input ~ 0
+ea
+Text GLabel 3200 4250 1    50   Input ~ 0
+eb
+Wire Wire Line
+	9150 3300 9250 3300
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 612AD4C0
+P 6800 4750
+F 0 "J3" H 6908 5031 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6908 4940 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal" H 6800 4750 50  0001 C CNN
+F 3 "~" H 6800 4750 50  0001 C CNN
+	1    6800 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 7000 4650 2    50   Output ~ 0
+gnd2
+Text GLabel 7000 4750 2    50   Input ~ 0
+led
+Text GLabel 7000 4850 2    50   Input ~ 0
+5VA
+Text GLabel 5000 4900 2    50   Input ~ 0
+5V
+Text GLabel 2600 5050 0    50   Input ~ 0
+gnd2
+Text GLabel 4400 4250 1    50   Input ~ 0
+led
+Text GLabel 6250 5100 2    50   Output ~ 0
+gnd
+Text GLabel 6650 5150 1    50   Input ~ 0
+sin
+Text GLabel 6650 5450 3    50   Input ~ 0
+5V
+$Comp
+L Device:R R2
+U 1 1 6139BAD0
+P 6650 5300
+F 0 "R2" V 6535 5300 50  0000 C CNN
+F 1 "4k7" V 6534 5300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6580 5300 50  0001 C CNN
+F 3 "~" H 6650 5300 50  0001 C CNN
+	1    6650 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 5300 6250 5450
+Wire Wire Line
+	6250 5450 6650 5450
+Wire Wire Line
+	6250 5200 6500 5200
+Wire Wire Line
+	6500 5200 6500 5150
+Wire Wire Line
+	6500 5150 6650 5150
+Text GLabel 3400 4250 1    50   Input ~ 0
+sin
+Text GLabel 5000 5000 2    50   Input ~ 0
+3V3
+Text GLabel 3100 4250 1    50   Input ~ 0
+hand
+Text GLabel 2450 4000 0    50   Input ~ 0
+hand
+Text GLabel 2750 4000 2    50   Input ~ 0
+3V3
+$Comp
+L Device:R R1
+U 1 1 61389019
+P 2600 4000
+F 0 "R1" V 2485 4000 50  0000 C CNN
+F 1 "4k7" V 2484 4000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2530 4000 50  0001 C CNN
+F 3 "~" H 2600 4000 50  0001 C CNN
+	1    2600 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L m65-rescue:BlackPillSTM32F401-alin U1
+U 1 1 6139BCBA
+P 3800 5150
+F 0 "U1" V 3754 3907 50  0000 R CNN
+F 1 "BlackPillSTM32F401-alin" V 3845 3907 50  0000 R CNN
+F 2 "m65:BlackPillSTM32F401CCU6" V 4550 4350 50  0001 C CNN
+F 3 "" V 4550 4350 50  0001 C CNN
+	1    3800 5150
+	0    1    1    0   
+$EndComp
+Text GLabel 5000 5200 2    50   Input ~ 0
+5VA
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 6138FFB5
+P 6050 5200
+F 0 "J2" H 6158 5481 50  0000 C CNN
+F 1 "Conn_01x03_Male" V 6158 5390 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal" H 6050 5200 50  0001 C CNN
+F 3 "~" H 6050 5200 50  0001 C CNN
+	1    6050 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 6158D9C8
+P 6550 2500
+F 0 "D32" H 6550 2625 50  0000 C CNN
+F 1 "D" H 6550 2626 50  0001 C CNN
+F 2 "m65:diode_v" H 6550 2500 50  0001 C CNN
+F 3 "~" H 6550 2500 50  0001 C CNN
+	1    6550 2500
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

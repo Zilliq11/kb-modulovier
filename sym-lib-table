@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "diode")(type "KiCad")(uri "/home/drFaustroll/playground/keyboard/m65/m65-pcb/symbols/diode.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "/home/drFaustroll/playground/keyboard/m65/m65-pcb/symbols/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_stm32f401-weact")(type "KiCad")(uri "/home/drFaustroll/playground/keyboard/m65/m65-pcb/symbols/MCU_stm32f401-weact.kicad_sym")(options "")(descr ""))
+)
