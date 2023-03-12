@@ -1,614 +1,600 @@
-147403293873657
-m-lego
+144320231166749
+M65Lego
 74HC165-sop16
 16-Lead Plastic Small Outline http://www.vishay.com/docs/49633/sg2098.pdf
 SOP 1.27
 0
 32
 16
-m-lego
+M65Lego
 74HC589-sop16
 16-Lead Plastic Small Outline http://www.vishay.com/docs/49633/sg2098.pdf
 SOP 1.27
 0
 32
 16
-m-lego
+M65Lego
 74HC595-sop16
 16-Lead Plastic Small Outline http://www.vishay.com/docs/49633/sg2098.pdf
 SOP 1.27
 0
 32
 16
-m-lego
+M65Lego
 74hc165
 <b>Dual In Line Package</b>
 
 0
 16
 16
-m-lego
+M65Lego
 74hc595n
 <b>Dual In Line Package</b>
 
 0
 16
 16
-m-lego
+M65Lego
 BlackPillSTM32F303CCT6
 Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
 module BlluePill Blue Pill header SWD breakout
 0
 50
 50
-m-lego
+M65Lego
 BlackPillSTM32F401CCU6
 Through hole headers for BlackPill weact STM32F401. No SWD breakout. Fancy silkscreen.
 module BlackPill weact STM32F401
 0
 40
 40
-m-lego
+M65Lego
 C-dual
 C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
 C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor
 0
 6
 2
-m-lego
+M65Lego
 CherryMX-ledTHT
 
 
 0
 4
 4
-m-lego
+M65Lego
 CherryMX_ChocV2_1u
 
 
 0
 7
 2
-m-lego
+M65Lego
 CherryMX_ChocV2_1u-3dALPS
 
 
 0
 7
 2
-m-lego
+M65Lego
 CherryMX_ChocV2_1u-3dCherry
 
 
 0
 7
 2
-m-lego
+M65Lego
 CherryMX_ChocV2_1u-3dchocov1
 
 
 0
 7
 2
-m-lego
+M65Lego
 CherryMX_ChocV2_1u-3dchocov2
 
 
 0
 7
 2
-m-lego
+M65Lego
 CherryMX_ChocV2_1u-ledTHT
 
 
 0
 4
 4
-m-lego
+M65Lego
 CherryMX_ChocV2_enc_1u
 
 
 0
 14
 5
-m-lego
+M65Lego
 LED_D3.0mm_lwr
 IR-LED, diameter 3.0mm, 2 pins, color: clear
 IR infrared LED diameter 3.0mm 2 pins clear
 0
 2
 2
-m-lego
+M65Lego
 LED_D3.0mm_rse
 IR-LED, diameter 3.0mm, 2 pins, color: clear
 IR infrared LED diameter 3.0mm 2 pins clear
 0
 2
 2
-m-lego
+M65Lego
 LegoHole_1u_49
 Mounting Hole 4.9mm, no annular
 mounting hole 4.9mm, no annular
 0
 0
 0
-m-lego
+M65Lego
 LegoHole_1u_4875
 Mounting Hole 4.9mm, no annular
 mounting hole 4.9mm, no annular
 0
 0
 0
-m-lego
+M65Lego
 LegoHole_1u_4875_corner
 Mounting Hole 4.9mm, no annular
 mounting hole 4.9mm, no annular
 0
 0
 0
-m-lego
+M65Lego
 LegoHole_7u_4875
 Mounting Hole 4.9mm, no annular
 mounting hole 4.9mm, no annular
 0
 0
 0
-m-lego
+M65Lego
 LegoHole_10x20u_4875
 Mounting Hole 4.9mm, no annular
 mounting hole 4.9mm, no annular
 0
 0
 0
-m-lego
+M65Lego
 LegoHole_11u_4875
 Mounting Hole 4.9mm, no annular
 mounting hole 4.9mm, no annular
 0
 0
 0
-m-lego
+M65Lego
 LegoHole_12u_4875
 Mounting Hole 4.9mm, no annular
 mounting hole 4.9mm, no annular
 0
 0
 0
-m-lego
+M65Lego
 LegoHole_12x8u_4875
 Mounting Hole 4.9mm, no annular
 mounting hole 4.9mm, no annular
 0
 0
 0
-m-lego
+M65Lego
 LegoHole_12x12u_4875
 Mounting Hole 4.9mm, no annular
 mounting hole 4.9mm, no annular
 0
 0
 0
-m-lego
+M65Lego
 LegoHole_14u_4875
 Mounting Hole 4.9mm, no annular
 mounting hole 4.9mm, no annular
 0
 0
 0
-m-lego
+M65Lego
 LegoHole_15u_4875
 Mounting Hole 4.9mm, no annular
 mounting hole 4.9mm, no annular
 0
 0
 0
-m-lego
+M65Lego
 LegoHole_16-32u_4875
 Mounting Hole 4.9mm, no annular
 mounting hole 4.9mm, no annular
 0
 0
 0
-m-lego
+M65Lego
 LegoHole_16x16u_4875
 Mounting Hole 4.9mm, no annular
 mounting hole 4.9mm, no annular
 0
 0
 0
-m-lego
+M65Lego
 LegoHole_30u_4875
 Mounting Hole 4.9mm, no annular
 mounting hole 4.9mm, no annular
 0
 0
 0
-m-lego
+M65Lego
 LegoHole_31u_4875
 Mounting Hole 4.9mm, no annular
 mounting hole 4.9mm, no annular
 0
 0
 0
-m-lego
-MX-Alps-Hybrid-1U
-
-
-0
-4
-2
-m-lego
+M65Lego
 MountingHole_1.15mm_M1
 Mounting Hole 2.2mm, no annular, M2
 mounting hole 2.2mm no annular m2
 0
 0
 0
-m-lego
+M65Lego
 OLED_128x32
 Connecteur 4 pins
 oled 
 0
 4
 4
-m-lego
+M65Lego
 OSHW-Logo2_9.8x8mm_Copper
 Open Source Hardware Symbol
 Logo Symbol OSHW
 0
 0
 0
-m-lego
+M65Lego
 OSHW-Logo2_14.6x12mm
 Open Source Hardware Symbol
 Logo Symbol OSHW
 0
 0
 0
-m-lego
+M65Lego
 R-dual
 Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
 Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
 0
 10
 2
-m-lego
+M65Lego
 R-dual-5k1
 Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
 Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
 0
 10
 2
-m-lego
+M65Lego
 R-dual-10k
 Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
 Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
 0
 10
 2
-m-lego
+M65Lego
 R-dual-510
 Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
 Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
 0
 10
 2
-m-lego
+M65Lego
 R510_led
 Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
 Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
 0
 6
 2
-m-lego
+M65Lego
 R4700
 Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
 Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
 0
 2
 2
-m-lego
+M65Lego
 RPi_Pico_SMD_TH
 Through hole straight pin header, 2x20, 2.54mm pitch, double rows
 Through hole pin header THT 2x20 2.54mm double row
 0
 86
 43
-m-lego
+M65Lego
 R_10k
 Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
 Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
 0
 2
 2
-m-lego
+M65Lego
 R_100k
 Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
 Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
 0
 2
 2
-m-lego
+M65Lego
 R_A10
 Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
 Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
 0
 2
 2
-m-lego
+M65Lego
 RotaryEncoder_Alps_EC11E_Vertical_H20mm
 Alps rotary encoder, EC12E... without switch (pins are dummy), vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
 rotary encoder
 0
 7
 5
-m-lego
+M65Lego
 SK6812-MINI-E
 
 
 0
 4
 4
-m-lego
+M65Lego
 SK6812-MINI-E-pins
 
 
 0
 8
 4
-m-lego
-SO16
-<b>Small Outline package</b> 150 mil
-
-0
-16
-16
-m-lego
+M65Lego
 SW-1u-MXandChocV2
 
 
 0
 13
 4
-m-lego
+M65Lego
 SW-1u-MXandChocV2-v2
 
 
 0
 21
 4
-m-lego
+M65Lego
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 1.00u PCB
 0
 2
 2
-m-lego
+M65Lego
 SW_Cherry_MX_1.00u_PCB-3d
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 1.00u PCB
 0
 2
 2
-m-lego
+M65Lego
 SW_Cherry_MX_1.00u_PCB-enc
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch 1.00u PCB
 0
 9
 5
-m-lego
+M65Lego
 SW_PG1350
 Kailh "Choc" PG1350 keyswitch
 kailh,choc
 0
 2
 2
-m-lego
+M65Lego
 battery connector
 JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
 connector JST PH top entry
 0
 6
 3
-m-lego
+M65Lego
 battery connector - no surface
 JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
 connector JST PH top entry
 0
 2
 2
-m-lego
+M65Lego
 cols0-1 10-15
 Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
 Through hole socket strip THT 1x08 2.54mm single row
 0
 8
 8
-m-lego
+M65Lego
 cols0-9
 Through hole straight socket strip, 1x10, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
 Through hole socket strip THT 1x10 2.54mm single row
 0
 10
 10
-m-lego
+M65Lego
 cols2-9
 Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
 Through hole socket strip THT 1x08 2.54mm single row
 0
 8
 8
-m-lego
+M65Lego
 cols10-15
 Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
 Through hole socket strip THT 1x06 2.54mm single row
 0
 6
 6
-m-lego
+M65Lego
 connector-rgb
 JST XH series connector, S3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH horizontal
 0
 3
 3
-m-lego
+M65Lego
 diode_v
 Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
 Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
 0
 10
 2
-m-lego
+M65Lego
 el
 
 
 0
 0
 0
-m-lego
+M65Lego
 el-copper
 
 
 0
 0
 0
-m-lego
+M65Lego
 el-copper-mask
 
 
 0
 0
 0
-m-lego
+M65Lego
 fl
 
 
 0
 0
 0
-m-lego
+M65Lego
 fl-copper
 
 
 0
 0
 0
-m-lego
+M65Lego
 inv
 
 
 0
 0
 0
-m-lego
+M65Lego
 jst_rgb
 JST EH series connector, S3B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
 connector JST EH horizontal
 0
 3
 3
-m-lego
+M65Lego
 jst_split
 JST EH series connector, S3B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
 connector JST EH horizontal
 0
 3
 3
-m-lego
+M65Lego
 lp
 
 
 0
 0
 0
-m-lego
+M65Lego
 lp-copper
 
 
 0
 0
 0
-m-lego
+M65Lego
 mouse-bite-1mm-slot
 
 
 0
 0
 0
-m-lego
+M65Lego
 mouse-bite-2.54mm-slot
 
 
 0
 0
 0
-m-lego
+M65Lego
 mouse-bite-2mm-slot
 
 
 0
 0
 0
-m-lego
+M65Lego
 mouse-bite-3mm-slot
 
 
 0
 0
 0
-m-lego
+M65Lego
 mouse-bite-5mm-slot
 
 
 0
 0
 0
-m-lego
+M65Lego
 rgb-con
 JST EH series connector, S3B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
 connector JST EH horizontal
 0
 3
 3
-m-lego
+M65Lego
 rows0-7
 Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
 Through hole socket strip THT 1x08 2.54mm single row
 0
 8
 8
-m-lego
+M65Lego
 screen-oled
 Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
 Through hole socket strip THT 1x08 2.54mm single row
 0
 8
 8
-m-lego
+M65Lego
 socket2.54
 Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
 Through hole socket strip THT 1x08 2.54mm single row
 0
 8
 8
-m-lego
+M65Lego
 ssd-1680
 Through hole straight pin header, 2x04, 2.54mm pitch, double rows
 Through hole pin header THT 2x04 2.54mm double row
 0
 8
 8
-m-lego
+M65Lego
 switch_slide
 CuK miniature slide switch, OS series, SPDT, https://www.ckswitches.com/media/1428/os.pdf
 switch SPDT
 0
-5
+11
 3
-m-lego
+M65Lego
 xiao-ble-tht-new
 
 

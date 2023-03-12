@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "m65")(type "KiCad")(uri "/home/drFaustroll/playground/keyboard/m65/m65-pcb/m65.pretty")(options "")(descr "")(disabled))
+  (version 7)
+  (lib (name "m65")(type "KiCad")(uri "/home/drFaustroll/playground/keyboard/m65/m65-pcb/m65.pretty")(options "")(descr ""))
 )
